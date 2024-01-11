@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.main-container{
+    max-width: 990px;
+}
+.upper-container{
+    display: flex;
+}
+.left-txt{
+    max-width: 445px;
+}
+.heading{
+    color: hsl(300, 43%, 22%);
+    font-size: 2rem;
+    line-height: 1.15;
+    font-weight: 700;
+    max-width: 250px;
+}
+.description{
+    color:  hsl(303, 10%, 53%);
+    padding-top: 1.2rem;
+    padding-right: 2rem;
+    line-height: 1.5;
+}
+.rating-info{
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding-top: 2.5rem;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.reviews{
+    align-self: center;
+}
+.reports{
+    align-self: last baseline;
+}
+.bestTech{
+    align-self: flex-end;
+}
+.reviews, .reports, .bestTech, img{
+    padding: 0 4px;
+}
+
+
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 3rem;
+
+}
+.left-cards, .middle-card, .right-cards{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 4px;
+    color: white;
+    padding: 1.75rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.customer-info{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.comment{
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+.names{
+    display: block;
+}
+.status{
+    color: hsl(333, 80%, 67%);
+}
+.customer-info img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+
