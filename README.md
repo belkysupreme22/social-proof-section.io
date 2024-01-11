@@ -6,8 +6,8 @@ This is my solution to the [Social proof section challenge on Frontend Mentor](h
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-media-proof-section-using-css-grid-and-flexbox-2cxLLLo3mK]
+- Live Site URL: [https://belkysupreme22.github.io/social-proof-section.io/e]
 
 ## My process
 
